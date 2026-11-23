@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST JS</title>
+</head>
+<body>
+    <script>
+        let numero = 1;
+        let sommadispari = 0
+        let quantidispari = 0
+
+        while (numero <= 20) {
+            if (numero % 2 === 0) {
+                console.log(numero)
+            }
+            else {
+                sommadispari = sommadispari + numero;
+                quantidispari++
+            } numero++
+        }
+        let media = sommadispari / quantidispari;
+        console.log(media);
+    </script>
+</body>
+</html>
